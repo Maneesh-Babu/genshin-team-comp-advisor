@@ -1,6 +1,14 @@
 # === Core Django + Web ===
 Django==5.1.1
 djangorestframework==3.15.2
+django-cors-headers==4.9.0
+google-ai-generativelanguage==0.6.15
+google-api-core==2.28.1
+google-api-python-client==2.185.0
+google-auth==2.42.0
+google-auth-httplib2==0.2.0
+google-generativeai==0.8.5
+googleapis-common-protos==1.71.0
 gunicorn==22.0.0
 whitenoise==6.7.0
 requests==2.32.3
@@ -31,5 +39,6 @@ certifi==2024.8.30
 charset-normalizer==3.3.2
 urllib3==2.2.3
 idna==3.10
+
 
 
