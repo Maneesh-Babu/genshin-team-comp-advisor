@@ -1,5 +1,6 @@
 # === Core Django + Web ===
 Django==5.1.1
+djangorestframework==3.15.2
 gunicorn==22.0.0
 whitenoise==6.7.0
 requests==2.32.3
@@ -30,4 +31,5 @@ certifi==2024.8.30
 charset-normalizer==3.3.2
 urllib3==2.2.3
 idna==3.10
+
 
