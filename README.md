@@ -8,3 +8,6 @@ It is an AI-powered web app that helps players build their optimal team composit
 (3) Improve the Frontend styling and add more options or animation-styles to the application
 (4) This application currently fails to give output as the memory-usage of the AI Model is over the Render's free trial limit. Need to use an alternative AI Model.
 
+# Flowchart on the application workflow
+
+![Workflow Diagram](./Worflow.png)
