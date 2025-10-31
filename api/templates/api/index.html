@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Genshin Team Advisor</title>
+  
+  <link rel="stylesheet" href="{% static 'api/css/style.css' %}">
+</head>
+<body>
+  <h1>Genshin Team Advisor</h1>
+  <p>Choose your characters from below and click <strong>Done</strong> for getting your optimal team comps</p>
+  <p>(PS: Characters are only updated till Fontaine, work in progress)</p>
+  <div id="character-container" class="character-grid"></div>
+
+  <div class="button-container">
+    <button id="done-button">Done</button>
+  </div>
+
+  <div id="result-container"></div>
+
+  <script src="{% static 'api/js/main.js' %}?v=2"></script>
+</body>
+</html>
